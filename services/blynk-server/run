@@ -1,0 +1,3 @@
+#!/bin/bash
+cd /usr/local/blynk/
+exec /sbin/setuser abc java -jar blynk-server.jar -dataFolder /config
